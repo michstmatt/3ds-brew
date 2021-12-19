@@ -1,5 +1,8 @@
 # 3ds-brew
 
+## Edit your code
+
+With vscode open `./source/main.c`
 
 ## Building code
 
