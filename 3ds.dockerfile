@@ -8,4 +8,4 @@ RUN make
 
 ENV ADDRESS="ADDRESS"
 
-CMD echo "Attempting to upload..." && timeout 5s $DEVKITPRO/tools/bin/3dslink --address $ADDRESS 3ds.3dsx
+CMD echo "Attempting to upload..." && timeout 10s $DEVKITPRO/tools/bin/3dslink --address $ADDRESS 3ds.3dsx
